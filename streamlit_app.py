@@ -5,7 +5,7 @@ import pandas as pd
 def load_data():
     from pathlib import Path
     BASE = Path(__file__).parent
-    return pd.read_excel(BASE / "employees.xlsx")
+    return pd.read_excel(BASE / "employees_clean.xlsx")
 
 df = load_data()
 
